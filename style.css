@@ -66,4 +66,17 @@ grid-column: span 2;
 .row-2{
     grid-row: span 2;
     } 
+/*updating media queries  */
+@media screen and (width<=1024px){
+  .flex{
+    flex-direction: column;
+  }
+  .box{
+    grid-row: span 1;
+    grid-column: span 3;
+  }
+  .gallery{
+    padding-block: 20px;
+  }
+}
     
