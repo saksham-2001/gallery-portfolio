@@ -43,7 +43,7 @@ padding: 20px;
     background-size: cover;
     background-position:bottom;
    text-align:center;
-   padding-top: 20%;
+/*    padding-top: 20%; */
    color: white;
    background-color: #222;
     background-blend-mode: hard-light;
@@ -70,13 +70,14 @@ grid-column: span 2;
 @media screen and (max-width: 1024px){
   .flex{
     flex-direction: column;
+    padding-block: 20px;
   }
   .box{
     grid-row: span 1;
     grid-column: span 3;
   }
   .gallery{
-    padding-block: 20px;
+    padding-inline: 12px;
   }
 }
     
